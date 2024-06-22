@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    text-decoration: none;
+}
+.conteinr{
+    text-align: center;
+    
+}
+body{
+    background-image: url(../jpg/category.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
+header{
+    margin:40px;
+}
+header a{
+    font-size:1.1em;
+    color: white;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 3px 3px #000000;
+}
+header :hover{
+    color: #00ffff;
+}
+main{
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    margin-left: 400px;
+}
+main div{
+    width: 370px;
+    margin:30px;
+    background-color: rgba(0, 0, 0,0.3);
+    box-shadow: 1px 1px 4px #f7f7f7;
+    border-radius: 10px;
+
+}
+.card a{
+    color: #57ecbd;
+
+}
+main img{
+    width: 97%;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+
+
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}

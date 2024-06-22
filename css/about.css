@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+}
+body {
+    background-image: url(../jpg/monochrome-green-realistic-dark-tropical-leaves-background_23-2148438934.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
+header{
+    margin:40px;
+}
+header a{
+    font-size:1.1em;
+    color: white;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 3px 3px #000000;
+}
+header :hover{
+    color: #00ffff;
+}
+.about{
+    align-items: center;
+    width: 95%;
+    height: 300px;
+    margin-top: 140px;
+    margin-left: 35px;
+    border: 1px solid rgba(255, 255, 255,0.7);
+    color: white;
+    border-radius: 7px;
+    box-shadow: 1px 1px 12px rgba(255, 255, 255,.4);
+}
+.logo{
+    float: left;
+    width: 300px;
+}
+.logo img{
+    width: 100%;
+    margin-left: 50px;
+}
+
+.lorem{
+    float: right;
+    width: 550px;
+    margin-right: 200px;
+    padding: 10px;
+}
+.lorem h2{
+    font-size: 3.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lorem p{
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
